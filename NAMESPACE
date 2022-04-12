@@ -1,3 +1,4 @@
+importFrom("stats", "dnorm", "pnorm", "qnorm", "runif")
 export( dmp, pmp, qmp, rmp,
         dtw, ptw, qtw, rtw, 
      	dWishartMax, pWishartMax, qWishartMax, rWishartMax,
