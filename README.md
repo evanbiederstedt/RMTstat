@@ -8,7 +8,7 @@ An R package for distributions from random matrix theory
 
 Fork of the original R package of the [(now archived) GitHub repo](https://github.com/patperry/r-rmtstat) in order to maintain the package for CRAN. 
 
-For more details, see the page on [CRAN](https://cran.r-project.org/web/packages/RMTstat/index.html).
+For more details, see the page on [CRAN](https://cran.r-project.org/package=RMTstat).
 
 ## RMTstat: Distributions, Statistics and Tests derived from Random Matrix Theory
 
