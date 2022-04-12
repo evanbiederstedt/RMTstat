@@ -43,5 +43,4 @@ The R package can be cited as follows:
 Iain M. Johnstone, Patrick O. Perry, Zongming Ma, and Morteza Shahram
 (2014). RMT: Distributions, Statistics and Tests derived from Random
 Matrix Theory. R package version 0.3.1.
-
 ```
