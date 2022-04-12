@@ -11,3 +11,4 @@ docker
 CONTRIBUTING.md
 data-raw
 ^\.circleci$
+LICENSE.BSD3
