@@ -1,3 +1,13 @@
-/.git/
-/.gitignore
-LICENSE.BSD3
+^.*\.Rproj$
+^\.Rproj\.user$
+CHANGELOG.md
+^LICENSE\.md$
+^docker$
+^doc$
+^Meta$
+^vignettes\*.md$
+^vignettes\figure$
+docker
+CONTRIBUTING.md
+data-raw
+^\.circleci$
