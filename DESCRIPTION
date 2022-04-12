@@ -11,3 +11,5 @@ Description:
     functions were computed by functions were computed by Momar Dieng's MATLAB package "RMLab". This package is part of a collaboration between Iain Johnstone, Zongming Ma, Patrick Perry, and Morteza Shahram.
 License:     BSD_3_clause + file LICENSE
 Encoding:    UTF-8
+URL: https://github.com/evanbiederstedt/RMTstat
+BugReports: https://github.com/evanbiederstedt/RMTstat
