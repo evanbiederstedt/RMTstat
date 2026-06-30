@@ -1,5 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^LICENSE.BSD3
 CHANGELOG.md
 ^LICENSE\.md$
 ^docker$
