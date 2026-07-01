@@ -1,23 +1,38 @@
-if( !exists("meta") || is.null(meta) )
+if( !exists("meta") || is.null(meta) ) {
     meta <- packageDescription( "RMTstat" )
+}
 
 citHeader( "To cite package ’RMTstat’ in publications use:" )
     
 year <- sub( ".*(2[[:digit:]]{3})-.*", "\\1", meta$Date )
 vers <- paste( "R package version", meta$Version )
 
-citEntry( entry="Manual", 
+bibentry( bibtype="Manual", 
           title="RMTstat: Distributions, Statistics and Tests derived from Random Matrix Theory", 
-         author=personList( as.person( "Iain M. Johnstone" ),
-                            as.person( "Zongming Ma" ),
-                            as.person( "Patrick O. Perry" ),
-                            as.person( "Morteza Shahram" ) ),
+         author=c(person(given = c("Iain", "M."),
+                        family = "Johnstone",
+                        role = "aut"),
+                 person(given = "Zongming",
+                        family = "Ma",
+                        role = "aut"),
+                 person(given = c("Patrick", "O."),
+                        family = "Perry",
+                        role = "aut"),
+                 person(given = "Morteza",
+                        family = "Shahram",
+                        role = "aut"),
+                 person(given = "Evan",
+                        family = "Biederstedt",
+                        role = c("aut", "cre"),
+                        email = "evan.biederstedt@gmail.com")),
            year=year, 
            note=vers, 
+           url = "https://CRAN.R-project.org/package=Rook",
     textVersion=paste( "Iain M. Johnstone, ",
+                       "Zongming Ma, " ,
                        "Patrick O. Perry, ",
-                       "Zongming Ma, and " ,
-                       "Morteza Shahram ",
+                       "Morteza Shahram, and ",
+                       "Evan Biederstedt ",
                        "(", year, "). ",
                        "RMT: Distributions, Statistics and Tests derived from Random Matrix Theory. ",
                        vers, ".", 
