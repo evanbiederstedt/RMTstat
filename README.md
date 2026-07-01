@@ -39,5 +39,6 @@ devtools::install_github('evanbiederstedt/RMTstat')
 The R package can be cited as follows:
 
 ```
-Iain M. Johnstone, Zongming Ma, Patrick O. Perry, Morteza Shahram, and Evan Biederstedt (2026). RMT: Distributions, Statistics and Tests derived from Random Matrix Theory. R package version 0.3.2.
+Iain M. Johnstone, Zongming Ma, Patrick O. Perry, Morteza Shahram, and Evan Biederstedt (2026). 
+RMT: Distributions, Statistics and Tests derived from Random Matrix Theory. R package version 0.3.2.
 ```
